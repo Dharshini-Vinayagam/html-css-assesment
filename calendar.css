@@ -1,0 +1,52 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calendar{
+    margin: 10% 10%;
+    max-width: 100px;
+    font-family:serif;
+    font-weight: bold;
+    color: black;
+}
+
+.month{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: black;
+    border: 5px solid burlywood;
+}
+
+table,th,td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    border: 5px solid burlywood;
+    font-weight: bolder;
+    font-family: Elaphont;
+}
+
+tr,th,td{
+    padding: 10px;
+}
+
+th{
+  background-color:moccasin;
+  color: black;
+  font-family: arial black;
+}
+
+td{
+    background-color:bisque;
+    
+}
+
+td:hover{
+    background-color: cornsilk;
+}

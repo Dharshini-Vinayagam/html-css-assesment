@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.testimonial{
+    padding:100px;
+    background-color:burlywood;
+    text-align: center;
+}
+
+.inner{
+   max-width: 1200px;
+   margin: auto;
+   overflow:hidden;
+}
+
+.border{
+    width: 200px;
+    height: 5px;
+    background-color: blueviolet;
+    margin: 10px auto;   
+}
+
+.testimonial img{
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.name{
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+p{
+    background-color: whitesmoke;
+    margin: 5px;
+    border-radius: px;
+}

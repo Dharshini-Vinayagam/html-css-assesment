@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>Registration Form</title>
+    <style>
+ body{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ body h1{
+ text-align: center;
+ padding: 1px;
+
+ }
+ .form-center{
+    position: absolute;
+    top:50px;
+    left:30%;
+    background-color:rgb(218, 184, 235);
+    opacity: 0.8;
+    width:50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ input[type=text],[type=password]{
+    width:50% ;
+    border-radius:3px ;
+    padding:3px;
+ }
+ label{
+    font-weight:bolder;
+    padding: 1px;
+ }
+ .button{
+    background-color:rgb(208, 204, 204);
+    border-radius: 3px;
+    font-weight: bolder;
+ }
+    </style>
+ </head>
+ <body>
+    <div class="form-center">
+    <form>
+    <div>
+    <h1>Registration Form </h1> 
+    <label>First name:</label>
+    <input type="text" name="firstname"><br>
+    <label>Middle name:</label>
+    <input type="text" name="middlename"><br>
+    <label>Last name:</label>
+    <input type="text" name="lastname"><br>
+
+    <label> Enter your email:</label>
+    <input type="text" name="email"><br>
+    <label>Course:</label>
+    <select name="Course">
+         <option id="Course" value="Course">Course</option>
+        <option id="BCA" value="bca">BCA</option>
+        <option id="BBA" value="bba">BBA</option>
+        <option id="BSC CS" value="bsc cs">BSC CS</option>
+        <option id="B.TECH" value="b.tech">B.TECH</option>
+        <option id="MBA" value="mba">MBA</option>
+        <option id="MCA" value="mca">MCA</option>
+        <option id="MSC" value="msc">MSC</option>
+        <option id="M.TECH" value="m.tech">M.TECH</option>
+     </select><br>
+     <label>Gender:</label><br>
+     <input type="radio" name="male">
+     <label for="MALE">MALE</label><br>
+     <input type="radio" name="female">
+     <label for="FEMALE">FEMALE</label><br>
+     <input type="radio" name="OTHER">
+    <label for="OTHER">OTHER</label><br> 
+    <label>Phone:</label>
+    <input type="phone" name="contry code" vale="+91" size="1">
+    <input type="text" name="Phone"><br>
+    <label>Address:</label><br>
+    <textarea cols="30" rows="5" value="Address"></textarea><br>
+    <label>Password:</label>
+    <input type="password" name="pass"><br>
+    <label> Re-type Password</label>
+    <input type="password" name="re pass"><br>
+    <input class="button" type="submit"> 
+ </form>
+ </div>
+ </body>
+ </html>
